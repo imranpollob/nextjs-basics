@@ -1,5 +1,5 @@
 import Layout from "./../components/Layout";
-import HeadTag from "./../components/HeadTag";
+import Head from "next/head";
 import Link from "next/link";
 
 const PostLink = props => (
@@ -21,7 +21,10 @@ const PostLink2 = props => (
 export default function Index() {
   return (
     <div>
-      <HeadTag title="Home" />
+      <Head>
+        <title>Home is Here</title>
+      </Head>
+
       <Layout title="Home">
         <h2>From home</h2>
       </Layout>
