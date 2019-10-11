@@ -6,10 +6,6 @@ export default function About() {
     <>
       <Head>
         <title>About is Here</title>
-        <meta
-          name="description"
-          content="about site for my programming portfolio"
-        />
       </Head>
 
       <Layout title="About">

@@ -9,10 +9,6 @@ export default function Post() {
     <>
       <Head>
         <title>{router.query.id}</title>
-        <meta
-          name="description"
-          content="A site for my programming portfolio"
-        />
       </Head>
 
       <Layout>

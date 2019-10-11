@@ -8,8 +8,7 @@ export default function Post() {
   return (
     <>
       <Head>
-        <title>About is Here</title>
-        <meta name="description" content={router.query.id} />
+        <title>{router.query.id}</title>
       </Head>
       <Layout>
         <h1>{router.query.id}</h1>
